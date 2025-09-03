@@ -95,6 +95,7 @@ Earthquake_Visualizer_App/
 
 │   └─ main.jsx            # App initialization
 │
+
 ├─ .gitignore          
 
 ├─ eslint.config.js        # Linting configuration
