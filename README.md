@@ -1,32 +1,45 @@
-### Earthquake Visualizer 🌍🌐
+# Earthquake Visualizer 🌍🌐
 
 A fully responsive web application that visualizes real-time earthquakes worldwide on an interactive map. Built with React and Leaflet, this app allows users to explore, filter, and analyze earthquake events with a clean and user-friendly interface. Optimized for both desktop and mobile screens, it offers multiple map styles, color-coded earthquake markers, and advanced interactive features.
 
 ## Features ✨
 
 Interactive Map: 
+
   -Pan, zoom, and explore earthquakes globally.
+
   -Leaflet zoom controls integrated for easy navigation.
+
   -Three map styles: OpenStreetMap, Satellite, and Dark Mode.
 
 Search Functionality:
+
   -Search bar with animated search button.
+
   -Search earthquakes by place or region.
 
 Filters & Controls:
+
   -Minimum Magnitude Slider with the current value displayed.
+
   -Time Range Dropdown: Past 24 hours, past 7 days, and past half (12 hours).
 
 Earthquake Markers:
+
   -Color-coded markers indicating intensity (Green → Yellow → Orange → Red).
+
   -Recent earthquakes (past 24 hours) highlighted with pulsing dark red markers.
+
   -Popups display detailed information about each earthquake.
 
 Clustering & Performance:
+
   -Efficient marker clustering ensures smooth interaction even with large datasets.
 
 Legend & Footer:
+
   -Color bars indicate earthquake intensity ranges.
+
   -Footer provides additional information and branding.
 
 Fully Responsive:
@@ -45,31 +58,55 @@ Map Tiles: OpenStreetMap, Satellite imagery, dark theme
 ## Folder Structure 📁
 
 Earthquake_Visualizer_App/
+
 │
+
 ├─ node_modules/           # Node dependencies
+
 ├─ public/                 # Public assets
+
 ├─ src/                    # Source files
-│   ├─ assets/             
+
+│   ├─ assets/  
+           
 │   ├─ components/         # React components
+
 │   │   ├─ FilterPanel.jsx
+
 │   │   ├─ Footer.jsx
+
 │   │   ├─ MapStyleToggler.jsx
+
 │   │   ├─ MapView.jsx
+
 │   │   └─ SearchBar.jsx
+
 │   │
+
 │   ├─ services/           # API calls
+
 │   │   └─ api.js
+
 │   │
+
 │   ├─ App.jsx             # Main App component
-│   ├─ index.jsx           # Entry point for ReactDOM
+
+│   ├─ index.cssx          # Global CSS
+
 │   └─ main.jsx            # App initialization
 │
-├─ .gitignore               
+├─ .gitignore          
+
 ├─ eslint.config.js        # Linting configuration
+
 ├─ index.html              # Main HTML file
+
 ├─ package-lock.json
+
 ├─ package.json
+
 ├─ README.md               # Project documentation
+
 └─ vite.config.js          # Build configuration
 
 
@@ -107,7 +144,7 @@ Observe recent activity: Pulsing darkred markers highlight earthquakes that occu
 
 Legend: Color-coded bars indicate earthquake intensity ranges.
 
-#Notes ⚠️
+## Notes ⚠️
 
 Data is fetched live from the USGS Earthquake API.
 
@@ -117,6 +154,6 @@ Supports React 18+ and Leaflet v5.
 
 Fully responsive design works on both desktop and mobile devices.
 
-#License 📝
+## License 📝
 
 This project is licensed under the MIT License.
