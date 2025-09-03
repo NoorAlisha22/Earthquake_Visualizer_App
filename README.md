@@ -94,6 +94,7 @@ Earthquake_Visualizer_App/
 │   ├─ index.cssx          # Global CSS
 
 │   └─ main.jsx            # App initialization
+
 │
 
 ├─ .gitignore          
