@@ -220,6 +220,7 @@ select:focus {
   color: black;
   text-align: center;
   font-size: 14px;
+  font-weight:400;
   z-index: 1000;
   display: flex;
   justify-content: center;

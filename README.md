@@ -22,7 +22,7 @@ Filters & Controls:
 
   -Minimum Magnitude Slider with the current value displayed.
 
-  -Time Range Dropdown: Past 24 hours, past 7 days, and past half (12 hours).
+  -Time Range Dropdown: Past 24 hours, past 7 days, and past hours.
 
 Earthquake Markers:
 
@@ -91,7 +91,7 @@ Earthquake_Visualizer_App/
 
 │   ├─ App.jsx             # Main App component
 
-│   ├─ index.cssx          # Global CSS
+│   ├─ index.css         # Global CSS
 
 │   └─ main.jsx            # App initialization
 
