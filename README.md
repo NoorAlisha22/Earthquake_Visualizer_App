@@ -127,7 +127,7 @@ npm install
 
 Start the development server:
 ```bash
-npm start
+npm run dev
 ```
 
 The app will run at http://localhost:3000.
@@ -156,6 +156,3 @@ Supports React 19 and Leaflet v5.
 
 Fully responsive design works on both desktop and mobile devices.
 
-## License 📝
-
-This project is licensed under the MIT License.
