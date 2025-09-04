@@ -152,7 +152,7 @@ Data is fetched live from the USGS Earthquake API.
 
 Ensure internet connectivity to fetch earthquake data.
 
-Supports React 18+ and Leaflet v5.
+Supports React 19 and Leaflet v5.
 
 Fully responsive design works on both desktop and mobile devices.
 
