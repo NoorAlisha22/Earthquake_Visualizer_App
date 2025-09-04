@@ -224,8 +224,8 @@ select:focus {
   z-index: 1000;
   display: flex;
   justify-content: center;
-  
   gap:50px;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .footer a {
