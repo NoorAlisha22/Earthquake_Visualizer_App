@@ -9,12 +9,6 @@ export default function Footer() {
           Portfolio
         </a>
       </p>
-      <p>
-        Data powered by{" "}
-        <a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener noreferrer">
-          USGS
-        </a>
-      </p>
     </footer>
   );
 }
